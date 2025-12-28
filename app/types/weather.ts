@@ -7,8 +7,11 @@ export interface CurrentWeather {
 
 export interface ForecastItem {
   dt: number
+  pop:number,
   main: {
-    temp: number
+    temp: number,
+    temp_min:number,
+    temp_max:number,
   }
   weather: {
     main: string
@@ -23,6 +26,7 @@ export interface HourlyForecastItem {
     temp: number
   }
   weather: {
+    main:string
     icon: string
     description: string
   }[]

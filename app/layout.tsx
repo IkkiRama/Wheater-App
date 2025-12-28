@@ -21,6 +21,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        <title>Wheater App Rifki Romadhan</title>
+      </head>
       <body
         className={`${roboto.className} antialiased`}
       >
