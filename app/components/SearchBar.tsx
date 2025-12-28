@@ -6,7 +6,7 @@ interface SearchBarProps {
 }
 
 export default function SearchBar({ onSearch }: SearchBarProps) {
-  const [value, setValue] = useState<string>('')
+  const [value, setValue] = useState<string>('Jakarta')
   const { resolvedTheme } = useTheme()
 
   if (!resolvedTheme) return null

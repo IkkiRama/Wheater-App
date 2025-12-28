@@ -10,7 +10,7 @@ export function useWeather(city: string) {
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState('')
 
-  useEffect(() => {
+  useEffect(() => { 
     async function load() {
       try {
         setLoading(true)

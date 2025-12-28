@@ -7,4 +7,4 @@ export function parseCurrentWeather(raw: any): CurrentWeather {
     description: raw.weather[0].description,
     icon: raw.weather[0].icon,
   }
-}
+} 
